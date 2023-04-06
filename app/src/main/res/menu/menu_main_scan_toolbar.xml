@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+        <!--<item android:id="@+id/action_search"
+            android:title="Search"
+            android:icon="@drawable/ic_search"
+            app:showAsAction="ifRoom|collapseActionView"
+            app:actionViewClass="androidx.appcompat.widget.SearchView"
+            app:closeIcon="@drawable/ic_cross"/>-->
+
+
+        <item
+            android:id="@+id/empty"
+            android:icon="@drawable/ic_burger"
+            android:orderInCategory="101"
+            app:showAsAction="always"
+            android:title="Menu">
+                <menu>
+                        <item
+                            android:id="@+id/action_subscribe"
+                            app:showAsAction="always|withText"
+                            android:title="@string/menu_subscribe"/>
+                        <item
+                            android:id="@+id/action_update"
+                            app:showAsAction="always|withText"
+                            android:title="@string/menu_update"/>
+                        <item
+                            android:id="@+id/action_logout"
+                            app:showAsAction="always|withText"
+                            android:title="@string/menu_logout"/>
+                        <item
+                            android:id="@+id/action_terms"
+                            app:showAsAction="always|withText"
+                            android:title="@string/menu_terms"/>
+                        <item
+                            android:id="@+id/action_settings"
+                            app:showAsAction="always|withText"
+                            android:title="@string/menu_settings"/>
+
+
+
+                </menu>
+        </item>
+
+
+
+
+</menu>

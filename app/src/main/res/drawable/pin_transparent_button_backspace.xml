@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true">
+        <layer-list>
+            <item>
+                <shape android:shape="oval">
+                    <solid android:color="@color/pin_button_pressed" />
+                    <padding android:top="20dp" android:right="20dp" android:bottom="20dp" android:left="20dp"/>
+                </shape>
+            </item>
+            <item android:drawable="@drawable/ic_backspace_24"/>
+        </layer-list>
+    </item>
+    <item android:state_pressed="false" android:drawable="@drawable/ic_backspace_24"/>
+</selector>

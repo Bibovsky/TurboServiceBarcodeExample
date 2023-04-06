@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+    <data>
+        <variable
+            name="scanMainViewModel"
+            type="com.basgroup.turboservicebarcode.ui.scanMain.ScanMainViewModel" />
+    </data>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.scanMain.ScanMainActivity">
+
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar_mainscan"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/white"
+        android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+        android:paddingStart="16dp"
+
+        >
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_toolbar_logo"
+            />
+        <!--<ImageView
+            android:id="@+id/imageViewSearch"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:adjustViewBounds="true"
+            android:layout_marginEnd="24dp"
+            android:src="@drawable/ic_burger"
+            android:layout_gravity="right"
+            />
+        <ImageView
+            android:id="@+id/imageViewBurger"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:adjustViewBounds="true"
+            android:layout_marginEnd="34dp"
+            android:src="@drawable/ic_search"
+            android:layout_gravity="right"
+            />-->
+    </androidx.appcompat.widget.Toolbar>
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/scan_rv"
+        android:layout_marginTop="?attr/actionBarSize"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:background="@drawable/background_gradient_transparent"
+        android:layout_alignParentBottom="true"/>
+
+    <androidx.appcompat.widget.AppCompatImageButton
+        android:id="@+id/btnLaunchScan"
+        android:background="@drawable/rounded_scan_button"
+        android:src="@drawable/ic_scan"
+        android:scaleX="0.9"
+        android:scaleY="0.9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="100dp"
+        />
+    <include
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/bottomNavView"
+        layout="@layout/bottom_buttons_layout"
+        android:layout_marginTop="48dp" />
+
+</RelativeLayout>
+</layout>

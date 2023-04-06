@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">ТурбоСервис Штрихкод</string>
+    <string name="login">Логин</string>
+    <string name="password">Пароль</string>
+    <string name="enter">Войти</string>
+    <string name="enter_pin">Введите пин-код</string>
+    <string name="login_error">Ошибка входа</string>
+    <string name="login_success">Вы успешно вошли!</string>
+    <string name="title_activity_scan_main">ScanMainActivity</string>
+    <string name="title_clean">Очистить</string>
+    <string name="title_turboservice">В ТурбоСервис</string>
+    <string name="title_share">Поделиться</string>
+
+    <string name="text_new_scan">Новое сканирование \n в корзину</string>
+    <string name="text_button_new_scan">Сканировать</string>
+    <string name="spinner_warehouse">Выберите склад</string>
+
+
+    <string name="text_scan_barcode">Сканирование штрихкода</string>
+    <string name="search_barcode_hint">Ввести код вручную</string>
+
+    <string name="cancel">Отменить</string>
+
+    <string name="found_choose">Выберите товар, которому сопоставить штрих-код</string>
+    <string name="search_found_hint">Введите код товара</string>
+
+    <string name="menu_subscribe">Купить подписку</string>
+    <string name="menu_update">Обновить данные</string>
+    <string name="menu_logout">Выйти</string>
+    <string name="menu_terms">Условия пользования</string>
+    <string name="menu_settings">Настройки</string>
+
+
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="title_activity_found_items">FoundItemsActivity</string>
+</resources>
